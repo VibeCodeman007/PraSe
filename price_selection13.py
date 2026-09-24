@@ -123,8 +123,8 @@ def serad_ucastniky_podle_preference_a_poradi(vec, data_ucastniku , skladiste):
         1: [],
         0: [],
         -1: [],
-        -2: []
-    }
+        -2: []        # -2 slouzi jako automaticke vyrazeni  pro obleceni pokud nemaji sparvnou velikost 
+    } 
 
     # Procházení všech účastníků
     for ucastnik, info in data_ucastniku.items():
